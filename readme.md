@@ -12,7 +12,7 @@ This is a sample page. The website focuses on implementing the basics of HTML an
 
 ### The deployed Version Link
 
-[Product Page]()
+[Product Page](https://productlp.netlify.app/)
 
 ### SnapShot of the Webpage
 

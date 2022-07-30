@@ -16,4 +16,4 @@ This is a sample page. The website focuses on implementing the basics of HTML an
 
 ### SnapShot of the Webpage
 
-![StreetStyle](./7.png)
+![Product](./7.png)

@@ -13,6 +13,7 @@ nav{
     margin-left: 15rem;
 }
 .nav-item{
+    cursor: pointer;
     font-size: 20px;
     font-weight: 400;
 }
@@ -143,4 +144,112 @@ img[alt=headphone]{
 button:hover{
     background-color: #000000;
     color: #FE5E35;
+}
+@media (max-width: 575px){
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    img[alt=logo]{
+        width: 5rem;
+    }
+    .nav-items{
+        flex-direction: column;
+        margin-left: 14rem;
+    }
+    .nav-item{
+        padding: 0;
+        margin: 1rem 0 0 -2rem;
+    }
+    img[alt=actions]{
+        margin-left: -12rem;
+    }
+    .intro-section{
+        flex-direction: column;
+    }
+    .left-section h3 {
+        transform: scale(.7);
+        margin-left: 6rem;
+    }
+    .left-section h1{
+        font-size: 2rem;
+        margin-left: 5rem;
+    }
+    .sub-headlines{
+        transform: scale(.7);
+    }
+    .text{
+        margin-left: 8rem;
+    }
+    .action-btns{
+        margin-left: 7rem;
+    }
+    .action-btn{
+        margin-top: 1rem;
+    }
+    .right-section{
+        transform: scale(.7);
+        margin-top: -4rem;
+        margin-left: -3rem;
+    }
+    .dots{
+        margin-top: 0rem;
+        margin-left: 14rem;
+    }
+    .right-section .action-btn{
+        margin-left: 12rem;
+    }
+}
+@media (min-width: 576px) and (max-width: 769px){
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    img[alt=logo]{
+        width: 5rem;
+    }
+    .nav-items{
+        margin-left: -1rem;
+    }
+    .nav-item{
+        padding-left: 4rem;
+    }
+    img[alt=actions]{
+        margin-left: -12rem;
+    }
+    .intro-section{
+        flex-direction: column;
+    }
+    .left-section h3 {
+        transform: scale(.9);
+        margin-left: 9rem;
+    }
+    .left-section h1{
+        font-size: 4rem;
+        margin-left: 9rem;
+    }
+    .sub-headlines{
+        transform: scale(.7);
+    }
+    .text{
+        margin-left: 8rem;
+    }
+    .action-btns{
+        margin-left: 4rem;
+    }
+    .action-btn{
+        margin-top: 1rem;
+    }
+    .right-section{
+        transform: scale(.7);
+        margin-top: -4rem;
+        margin-left: 3rem;
+    }
+    .dots{
+        margin-top: 0rem;
+        margin-left: 14rem;
+    }
+    .right-section .action-btn{
+        margin-left: 13rem;
+    }
 }

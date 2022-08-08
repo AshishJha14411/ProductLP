@@ -3,7 +3,7 @@ This is a sample page. The website focuses on implementing the basics of HTML an
 
 ## Time taken
 
-1 hours and 30 mins
+2hours 10 mins = 1 hours and 30 mins + 40 mins
 
 ### Things I learned
 
